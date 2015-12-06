@@ -45,7 +45,7 @@
     color: #737373 !important;
   }
 
-  .res-nightmode .tabmenu li a {
+  .res-nightmode .tabmenu li a, .md code, .md pre {
     background-color: transparent !important;
   }
 
