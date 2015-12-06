@@ -60,4 +60,27 @@
   .res-nightmode .tabmenu li {
     padding: 6px !important;
   }
+
+  .commentarea .entry {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .commentarea .entry .tagline {
+    order: 1;
+  }
+
+  .commentarea .entry .tagline {
+    order: 1;
+  }
+
+  .commentarea .entry .usertext {
+    order: 3;
+    min-width: 100%;
+  }
+
+  .commentarea .entry .buttons {
+    order: 2;
+    margin-top: -2px;
+  }
 }
