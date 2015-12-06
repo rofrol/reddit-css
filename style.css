@@ -1,10 +1,10 @@
 @-moz-document domain('reddit.com') {
   .thing:not(.comment) .midcol .arrow, .midcol.unvoted .arrow { visibility: hidden }
   .thing:not(.comment) .midcol:hover .arrow, .arrow, .midcol.unvoted:hover .arrow { visibility: visible }
-  .thing .rank, .entry .buttons .share, .entry .buttons .save-button, .entry .buttons > :not(.first), #sr-header-area, .organic-listing, #header-img { display: none !important }
+  .thing .rank, .entry .buttons > :not(.first):not(.reply-button), #sr-header-area, .organic-listing, #header-img { display: none !important }
   .res-nightmode .listing-page .sitetable > div:nth-of-type(4n+1), .res-nightmode .RES-keyNav-activeElement { background-color: inherit !important }
   .entry .tagline { color: transparent !important }
-  .commentarea .entry .buttons > .first, .entry .tagline > :not(.author), .entry .buttons .comments, .thumbnail.default, .thumbnail.self, .domain a { opacity: 0.07 !important }
+  .commentarea .entry .buttons > .first, .commentarea .entry .buttons > .reply-button, .entry .tagline > :not(.author), .linklisting .entry .buttons .comments, .thumbnail.default, .thumbnail.self, .domain a { opacity: 0.07 !important }
   .commentarea .entry .buttons > .first:hover, .entry .tagline > :hover, .entry .buttons .comments:hover, .domain a:hover { opacity: 1 !important }
   .res-nightmode.res-commentBoxes .comment { border: none !important; }
   .res-nightmode .RES-keyNav-activeElement .usertext-body .md p, .res-nightmode .RES-keyNav-activeElement .usertext-body .md, .res-nightmode .RES-keyNav-activeElement .usertext-body { background-color: transparent !important; }
